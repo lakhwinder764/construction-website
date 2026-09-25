@@ -663,6 +663,7 @@ export default function App() {
             <p key={person.email}>
               {person.name}
               <a href={`mailto:${person.email}`}>{person.email}</a>
+              {person.phone ? <a href={`tel:${person.phone}`}>{person.phone}</a> : null}
             </p>
           ))}
           <a href={company.registerUrl} target="_blank" rel="noreferrer">
@@ -680,6 +681,7 @@ export default function App() {
             name: company.name,
             identifier: company.number,
             email: company.people[0].email,
+            telephone: company.people[0].phone,
             address: {
               "@type": "PostalAddress",
               streetAddress: "Flat 3 Panorama Apartments, 2 Harefield Road",

@@ -46,12 +46,8 @@ export const company = {
     {
       name: "Raman Kaur",
       email: "ramankaur.61406@gmail.com",
+      phone: "07453814065",
       role: "eReminder contact",
-    },
-    {
-      name: "Lovepreet Nawa",
-      email: "lovepreetnawa@gmail.com",
-      role: "Enquiries",
     },
   ],
   registerUrl: "https://find-and-update.company-information.service.gov.uk/company/17464070",
